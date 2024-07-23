@@ -1,22 +1,15 @@
 public class Github{
-    static void practice(){
-        byte a=-128;       // the range of byte is -128 to 127
-        byte b= 127;
-        short c =-32768;   // the range of short is -32768 to 32767
-        short d =32767;
-        float e = 3.14f;  // we should mention f for reprsent float
-        
-        double f = 5.65d; // we should mention d in the end to reprsent double
-        System.out.println(a); 
-        System.out.println(b); 
-        System.out.println(c); 
-        System.out.println(d);
-        System.out.println(e); 
-        System.out.println(f);
-    }
-    public static void main(String args[]){
-        practice();
-    }
     
+    public static void main(String args[]){
+        
+    short total_marks = 500;
+    short total_got = 464;
+    double percentage = (double) total_got/total_marks *100;
+    System.out.println("The percentage you got : "+percentage);
+    
+    
+        
+    }
+ 
     
 }
